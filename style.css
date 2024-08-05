@@ -1,0 +1,163 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+  }
+
+  /* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  border-radius: 10px;
+}
+
+.logo img {
+  height: 70px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 45px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #f4d03f;
+}
+  
+header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-top: 10px;
+}
+  
+.profile-photo img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+  
+  .profile-info {
+    margin-left: 20px;
+  }
+  
+  .profile-info h1 {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+  }
+  
+  .profile-info p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    color: #006cfa;
+  }
+  
+  h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  p, ul {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: disc inside none;
+  }
+  
+  .education-item, .experience-item, .project-item {
+    margin-bottom: 15px;
+  }
+  
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .profile-photo img {
+      width: 120px;
+      height: 120px;
+    }
+  
+    .profile-info {
+      margin: 10px 0 0;
+    }
+  
+    .profile-info h1 {
+      font-size: 1.8em;
+    }
+  
+    .profile-info p {
+      font-size: 0.9em;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .resume-container {
+      padding: 15px;
+    }
+  
+    h2 {
+      font-size: 1.2em;
+    }
+  
+    h3 {
+      font-size: 1em;
+    }
+  
+    p, ul {
+      font-size: 0.9em;
+    }
+  }
+
+/* Footer Section */
+footer{
+  color: white;
+  height: 70px;
+  width: 100vw;
+  background-color: #333;
+  position: relative;
+  top: 20px;
+  text-align: center;
+}
+  
